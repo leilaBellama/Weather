@@ -36,22 +36,20 @@ async function checkWeather(city) {
 
     switch (condition) {
       case "Clouds":
-        weatherIcon.src = cloudsImg;
+        weatherIcon.src = "images/clouds.png";
         break;
       case "Clear":
-        weatherIcon.src = clearImg;
+        weatherIcon.src = "images/clear.png";
         break;
       case "Rain":
-        weatherIcon.src = rainImg;
+        weatherIcon.src = "images/rain.png";
         break;
       case "Drizzle":
-        weatherIcon.src = drizzleImg;
+        weatherIcon.src = "images/drizzle.png";
         break;
       case "Mist":
-        weatherIcon.src = mistImg;
+        weatherIcon.src = "images/mist.png";
         break;
-      default:
-        weatherIcon.src = clearImg;
     }
 
     document.querySelector(".weather").style.display = "block";
