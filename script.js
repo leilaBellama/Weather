@@ -1,8 +1,8 @@
-import cloudsImg from "./images/clouds.png";
-import clearImg from "./images/clear.png";
-import drizzleImg from "./images/drizzle.png";
-import mistImg from "./images/mist.png";
-import rainImg from "./images/rain.png";
+import cloudsImg from "images/clouds.png";
+import clearImg from "images/clear.png";
+import drizzleImg from "images/drizzle.png";
+import mistImg from "images/mist.png";
+import rainImg from "images/rain.png";
 
 const apiKey = "ab3a23138e69fba38257eccdefe5b378";
 const apiUrl =
